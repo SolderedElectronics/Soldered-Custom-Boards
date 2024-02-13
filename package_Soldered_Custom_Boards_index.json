@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "Soldered_Boards",
+      "name": "SolderedBoards",
       "maintainer": "Soldered",
       "websiteURL": "https://soldered.com/en",
       "help": {
@@ -30,47 +30,47 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "Soldered_Boards",
+              "packager": "SolderedBoards",
               "name": "xtensa-esp32-elf-gcc",
               "version": "esp-2021r2-patch5-8.4.0"
             },
             {
-              "packager": "Soldered_Boards",
+              "packager": "SolderedBoards",
               "name": "xtensa-esp32s3-elf-gcc",
               "version": "esp-2021r2-patch5-8.4.0"
             },
             {
-              "packager": "Soldered_Boards",
+              "packager": "SolderedBoards",
               "name": "xtensa-esp-elf-gdb",
               "version": "11.2_20220823"
             },
             {
-              "packager": "Soldered_Boards",
+              "packager": "SolderedBoards",
               "name": "riscv32-esp-elf-gcc",
               "version": "esp-2021r2-patch5-8.4.0"
             },
             {
-              "packager": "Soldered_Boards",
+              "packager": "SolderedBoards",
               "name": "riscv32-esp-elf-gdb",
               "version": "11.2_20220823"
             },
             {
-              "packager": "Soldered_Boards",
+              "packager": "SolderedBoards",
               "name": "openocd-esp32",
               "version": "v0.12.0-esp32-20230419"
             },
             {
-              "packager": "Soldered_Boards",
+              "packager": "SolderedBoards",
               "name": "esptool_py",
               "version": "4.5.1"
             },
             {
-              "packager": "Soldered_Boards",
+              "packager": "SolderedBoards",
               "name": "mkspiffs",
               "version": "0.2.3"
             },
             {
-              "packager": "Soldered_Boards",
+              "packager": "SolderedBoards",
               "name": "mklittlefs",
               "version": "3.0.0-gnu12-dc7f933"
             },
