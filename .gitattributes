@@ -9,3 +9,4 @@ riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch5-win64.zip filter=lfs diff=lfs merge=l
 xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-win32.zip filter=lfs diff=lfs merge=lfs -text
 xtensa-esp32-elf-gcc8_4_0-esp-2021r2-patch5-win64.zip filter=lfs diff=lfs merge=lfs -text
 ESP32_Based_Boards-1.0.0.zip filter=lfs diff=lfs merge=lfs -text
+ESP32_Based_Boards-1.1.0.zip filter=lfs diff=lfs merge=lfs -text

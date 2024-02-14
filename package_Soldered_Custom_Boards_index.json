@@ -13,6 +13,82 @@
             "online": "http://www.forum.soldered.com"
           },
           "category": "ESP32",
+          "url": "https://github.com/SolderedElectronics/Soldered-Custom-Boards/raw/main/ESP32_Boards/ESP32_Based_Boards-1.1.0.zip",
+          "archiveFileName": "ESP32_Based_Boards-1.1.0.zip",
+          "checksum": "SHA-256:7396cb1b0d504f113c8ec3657775614588fecc931b163abc64790dd675faa7c6",
+          "size": "253051901",
+          "version": "1.1.0",
+          "name": "Custom ESP32 Based Boards",
+          "architecture": "esp32",
+          "boards": [
+            {
+              "name": "ESP32-S3-WROOM-1 IPS LCD Board"
+            },
+            {
+              "name": "ESP32 WROVER Inkplate5 Board"
+            },
+            {
+              "name": "ESP32 WROVER Inkplate5 V2 Board"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "SolderedBoards",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "SolderedBoards",
+              "name": "xtensa-esp32s3-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "SolderedBoards",
+              "name": "xtensa-esp-elf-gdb",
+              "version": "11.2_20220823"
+            },
+            {
+              "packager": "SolderedBoards",
+              "name": "riscv32-esp-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "SolderedBoards",
+              "name": "riscv32-esp-elf-gdb",
+              "version": "11.2_20220823"
+            },
+            {
+              "packager": "SolderedBoards",
+              "name": "openocd-esp32",
+              "version": "v0.12.0-esp32-20230419"
+            },
+            {
+              "packager": "SolderedBoards",
+              "name": "esptool_py",
+              "version": "4.5.1"
+            },
+            {
+              "packager": "SolderedBoards",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "SolderedBoards",
+              "name": "mklittlefs",
+              "version": "3.0.0-gnu12-dc7f933"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            }
+          ]
+        },
+        {
+          "help": {
+            "online": "http://www.forum.soldered.com"
+          },
+          "category": "ESP32",
           "url": "https://github.com/SolderedElectronics/Soldered-Custom-Boards/raw/main/ESP32_Boards/ESP32_Based_Boards-1.0.0.zip",
           "archiveFileName": "ESP32_Based_Boards-1.0.0.zip",
           "checksum": "SHA-256:7396cb1b0d504f113c8ec3657775614588fecc931b163abc64790dd675faa7c6",
@@ -25,7 +101,7 @@
               "name": "ESP32-S3-WROOM-1 IPS LCD Board"
             },
             {
-              "name": "ESP32 WROVER Inkplate 5 Board"
+              "name": "ESP32 WROVER Inkplate5 Board"
             }
           ],
           "toolsDependencies": [
